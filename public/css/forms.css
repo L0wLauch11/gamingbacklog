@@ -1,0 +1,106 @@
+.textarea-box {
+    resize: none;
+
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    height: 200px;
+    padding: 8px 6px;
+    margin-bottom: 8px;
+
+    color: var(--color-lightest);
+    background-color: var(--color-darkest);
+    outline: var(--default-outline);
+    
+    border: var(--default-border);
+    border-color: var(--color-darkest);
+    border-radius: var(--default-border-radius);
+    transition: var(--prop-anim-speed);
+}
+
+.text-field {
+    border: none;
+    display: block;
+    padding: 8px 6px;
+    
+    color: var(--color-lightest);
+    background-color: var(--color-darkest);
+    outline: var(--default-outline);
+    transition: var(--prop-anim-speed);
+    
+    border: var(--default-border);
+    border-color: var(--color-darkest);
+    border-radius: var(--default-border-radius);
+}
+
+.text-field-small {
+    font-size: 14px;
+    padding: 4px 3px;
+}
+
+.text-field:focus,
+.textarea-box:focus {
+    outline: var(--default-outline-accent);
+    box-shadow: 0px 15px 24px var(--color-accent-translucent);
+}
+
+.button, .button-danger {
+    border: var(--default-border);
+    border-color: var(--color-darkest);
+    border-radius: var(--default-border-radius);
+    background-color: var(--color-darkest);
+    color: var(--color-lightest);
+    padding: 6px 12px;
+    margin-top: -3px; /* XD */
+    box-shadow: inset 0px 15px 24px var(--color-accent-translucent);
+    outline: var(--default-outline-accent);
+    transition: var(--prop-anim-speed);
+}
+
+.button:hover, .button-danger:hover {
+    background-color: var(--color-accent);
+    box-shadow: 0px 15px 24px var(--color-accent-translucent);
+    border-color: var(--color-accent);
+    color: var(--color-text-inverted);
+    scale: 1.05;
+}
+
+.button-small {
+    padding: 3px 6px;
+}
+
+/* Special cases for Logon UI */
+.button-danger {
+    outline-color: red;
+    box-shadow: inset 0px 15px 24px rgba(255, 0, 0, 0.25);
+}
+
+.button-danger:hover {
+    color: black;
+    background-color: red;
+    border-color: red;
+    box-shadow: 0px 15px 24px rgba(255, 0, 0, 0.25);
+}
+
+.logon-text-field {
+    width: 100%;
+    box-sizing: border-box;
+    margin-top: 4px;
+    margin-bottom: 16px;
+}
+
+.text-label {
+    display: block;
+    color: var(--color-lightest);
+    padding-bottom: 8px;
+}
+
+.logon-container {
+    max-width: 600px;
+    width: auto;
+}
+
+.logon-button {
+    float: right;
+    margin-right: 0px;
+}

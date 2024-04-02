@@ -1,0 +1,67 @@
+nav {
+    padding: 0px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 6px 12px;
+    padding-bottom: 4px;
+    padding: 0px;
+}
+
+.nav-link {
+    outline: var(--default-outline);
+    background-color: var(--color-darkest);
+    height: auto;
+    padding: 5px 10px;
+
+    border: var(--default-border);
+    border-radius: var(--default-border-radius);
+    border-color: var(--color-darkest);
+}
+
+.nav-link:hover {
+    outline: var(--default-outline-accent);
+    color: var(--color-text-inverted);
+    background-color: var(--color-accent);
+    border-color: var(--color-accent);
+    padding: 5px 10px;
+}
+
+.nav-bar {
+    width: fit-content;
+    position: absolute;
+    top: 16px;
+    padding: 8px 12px;
+    margin: 0px;
+    margin-bottom: 8px;
+    box-sizing: border-box;
+    
+    background-color: var(--color-darkest);
+    box-shadow: var(--default-box-shadow);
+    
+    outline: var(--default-outline);
+    border: var(--default-border);
+    border-color: var(--color-darkest);
+    border-radius: var(--default-border-radius);
+    backdrop-filter: blur(10px);
+}
+
+.nav-left {
+    left: 16px;
+}
+
+.nav-right {
+    right: 16px;
+    padding-bottom: 10px; /* Match with left side */
+}
+
+.logout-small {
+    display: none;
+}

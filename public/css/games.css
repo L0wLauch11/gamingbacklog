@@ -1,0 +1,152 @@
+.right-seperator {
+    background-color: var(--color-darkest);
+}
+
+.game-key-data {
+    font-size: 13px;
+}
+
+.game-title {
+    margin-top: 4px;
+    font-size: 24px;
+    font-weight: bold;
+    color: color-mix(in srgb, white 50%, var(--color-accent))
+}
+
+.game-info p {
+    margin-left: 8px;
+}
+
+.game-summary {
+    font-size: 14px;
+}
+
+.game-info {
+    vertical-align: text-top;
+    color: var(--color-lightest);
+}
+
+.game-info-title {
+    margin-left: 8px;
+    font-size: 18px;
+}
+
+.game-info-table {
+    max-width: inherit;
+}
+
+.game-info-table td {
+    vertical-align: top;
+}
+
+.game-description,
+.game-description span {
+    font-size: 14px;
+    font-style: italic;
+    text-align: justify;
+}
+
+.fade-out-text {
+    display: inline-block;
+    opacity: 50%;
+}
+
+.game-info-container {
+    outline: var(--default-outline);
+    transition: var(--prop-anim-speed);
+    box-shadow: 0px 15px 24px var(--color-shadow);
+    overflow: hidden;
+    backdrop-filter: blur(64px);
+}
+
+.game-info-container:hover {
+    outline: var(--default-outline-accent);
+    box-shadow: 0px 15px 24px var(--color-accent-translucent);
+    scale: 1.02;
+}
+
+.game-search-bar {
+    font-size: 18px;
+    padding: 16px 8px;
+    min-width: 600px;
+    width: 100%;
+    box-sizing: border-box;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    border-style: none;
+    outline: none;
+}
+
+.button-favourite {
+    position: absolute;
+    margin-left: -8px;
+    margin-top: -8px;
+    font-size: 0.1px;
+    padding: 4px 6px;
+    backdrop-filter: blur(24px);
+
+    outline-color: var(--color-favourite);
+    box-shadow: inset 0px 15px 24px var(--color-favourite-translucent);
+}
+
+.button-favourite:hover {
+    color: black;
+    background-color: var(--color-favourite);
+    border-color: var(--color-favourite);
+    box-shadow: 0px 15px 24px var(--color-favourite-translucent);
+}
+
+.button-danger {
+    outline-color: red;
+    box-shadow: inset 0px 15px 24px rgba(255, 0, 0, 0.25);
+}
+
+.button-danger:hover {
+    color: black;
+    background-color: red;
+    border-color: red;
+    box-shadow: 0px 15px 24px rgba(255, 0, 0, 0.25);
+}
+
+.game-action {
+    display: inline-block;
+    margin: 6px 3px;
+}
+
+#game-played-this-container {
+    outline-color: rgb(81, 255, 75);
+}
+
+.game-played-this {
+    outline-color: rgb(81, 255, 75);
+    box-shadow: inset 0px 15px 24px rgba(81, 255, 75, 0.25);
+}
+
+.game-played-this:hover {
+    color: black;
+    background-color: rgb(81, 255, 75);
+    box-shadow: 0px 15px 24px rgba(81, 255, 75, 0.25);
+}
+
+.game-on-backlog {
+    outline-color: rgb(255, 238, 0);
+    box-shadow: inset 0px 15px 24px rgba(255, 238, 0, 0.25);
+}
+
+.game-on-backlog:hover {
+    color: black;
+    background-color: rgb(255, 238, 0);
+    box-shadow: 0px 15px 24px rgba(255, 238, 0, 0.25);
+}
+
+.game-dropped {
+    outline-color: gray;
+    box-shadow: inset 0px 15px 24px rgba(128, 128, 128, 0.25);
+}
+
+.game-dropped:hover {
+    color: black;
+    background-color: gray;
+    box-shadow: 0px 15px 24px rgba(128, 128, 128, 0.25);
+}

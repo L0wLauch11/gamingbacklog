@@ -1,0 +1,65 @@
+/* Adjusting for all kinds of screen sizes */
+@media only screen and (max-width: 1566px) {
+    .container-nav-reactive {
+        margin-top: 70px;
+    }
+}
+
+@media only screen and (max-width: 1716px) {
+    .userpage-master-container {
+        margin-top: 88px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        padding: 16px;
+        border-radius: 0px;
+    }
+
+    .nav-left {
+        position: fixed;
+        top: auto;
+        width: calc(100vw - 32px);
+        bottom: 12px;
+        z-index: 1;
+    }
+
+    .nav-right {
+        position: fixed;
+        top: auto;
+        text-align: right;
+        width: calc(100vw - 32px);
+        bottom: 12px;
+        z-index: 2;
+
+        box-shadow: none;
+        border: none;
+        outline: none;
+        backdrop-filter: none;
+        background-color: rgba(0, 0, 0, 0);
+        width: fit-content;
+    }
+}
+
+@media only screen and (max-width: 450px) {
+    .nav-left li {
+        text-align: justify;
+    }
+
+    .nav-left {
+        text-align: justify;
+    }
+
+    .nav-left li a {
+        text-align: justify;
+    }
+
+    .logout-small {
+        display: inline-block;
+    }
+
+    .logout-big {
+        display: none;
+    }
+}

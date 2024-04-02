@@ -1,0 +1,45 @@
+.right-align {
+    float: right;
+}
+
+.left-sticky {
+    position: absolute;
+    left: min(16px, 3vw);
+}
+
+.spacer-small {
+    padding-top: 16px;
+}
+
+.icon-medium {
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.text-vertical-middle {
+    vertical-align: middle;
+}
+
+.full {
+    width: 100%;
+}
+
+.inline-block {
+    display: inline-block;
+}
+
+.fixed {
+    display: fixed;
+}
+
+.fit-content {
+    width: fit-content;
+}
+
+.center {
+    text-align: center;
+}
+
+.text-normal {
+    color: var(--color-lighter);
+}

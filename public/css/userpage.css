@@ -1,0 +1,93 @@
+.userpage-master-container {
+    height: 100%;
+    min-width: 1000px;
+    width: fit-content;
+    display: flex;
+    margin-top: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.side-container {
+    display: inline-block;
+    position: relative;
+    margin: 1px 0.5px;
+    border-radius: 0px;
+    min-height: 100vh;
+}
+
+.profile-sidepanel {
+    padding: 8px 16px;
+    width: 350px;
+    border-radius: 0px;
+    border: var(--default-border);
+    border-radius: var(--default-border-radius) 0px 0px var(--default-border-radius);
+    outline: var(--default-outline);
+}
+
+.profile-sidepanel p {
+    margin-top: 0px;
+}
+
+.profile-about-me {
+    font-size: 14px;
+    font-style: italic;
+    word-wrap: break-word;
+    text-align: justify;
+    display: inline-block;
+}
+
+.profile-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 256px;
+    padding: 32px 0px;
+}
+
+.profile-picture-small {
+    display: inline-block;
+    width: 32px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.profile-main-section {
+    border-radius: 0px var(--default-border-radius) var(--default-border-radius) 0px;
+    flex-grow: 1;
+}
+
+.userpage-table {
+    width: 100%;
+}
+
+.userpage-table tr th {
+    text-align: left;
+}
+
+.userpage-table tr th {
+    display: none;
+}
+
+.userpage-table tr td {
+    padding: 0px 12px;
+    border-radius: 0px;
+}
+
+.td-cover {
+    width: fit-content;
+    height: fit-content;
+    padding: 0px;
+    margin: 0px;
+    width: 1%;
+    height: 1%;
+    white-space: nowrap;
+}
+
+.td-playtime {
+    color: var(--color-lighter);
+}
+
+.td-given-score {
+    color: yellow;
+}
